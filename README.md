@@ -37,7 +37,7 @@ Este projeto foi desenvolvido como uma prática de manipulação de dados utiliz
  Após a conclusão da instalação, você pode executar o projeto utilizando o seguinte comando:
  
    ```bash
-   npm start
+   npm run dev
    ```
  ---
 
