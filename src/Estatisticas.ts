@@ -11,12 +11,14 @@ export default class Estatisticas {
   pagamento;
   status;
   semana;
+  melhorDia;
   constructor(transacoes: Transacao[]) {
     this.transacoes = transacoes;
     this.total = this.setTotal();
     this.pagamento = this.setPagamento();
     this.status = this.setStatus();
     this.semana = this.setSemana();
+    this.melhorDia = this.setMelhorDia();
   }
   private setTotal() {
     return this.transacoes.filter(filtrarValor).reduce((acc, item) => {
@@ -68,5 +70,8 @@ export default class Estatisticas {
       }
     }
     return semana;
+  }
+  private setMelhorDia() {
+    return Object.entries(this.semana).sort((a, b) => b[1] - a[1])[0];
   }
 }
