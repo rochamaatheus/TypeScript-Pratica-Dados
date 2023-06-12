@@ -1,3 +1,4 @@
+import Estatisticas from './Estatisticas';
 import fetchData from './fetchData';
 import normalizarTransacao from './normalizarTransacao';
 
@@ -9,6 +10,19 @@ async function handleData() {
 
   const transacoes = data.map(normalizarTransacao);
   preencherTabela(transacoes);
+  preencherEstatisticas(transacoes);
+}
+
+function preencherEstatisticas(transacoes: Transacao[]): void {
+  const data = new Estatisticas(transacoes);
+
+  const totalElement = document.querySelector<HTMLElement>('#total span');
+  if (totalElement) {
+    totalElement.innerText = data.total.toLocaleString('pr-BR', {
+      style: 'currency',
+      currency: 'BRL',
+    });
+  }
 }
 
 function preencherTabela(transacoes: Transacao[]): void {
