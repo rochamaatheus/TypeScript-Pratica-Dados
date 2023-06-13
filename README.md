@@ -8,6 +8,8 @@ Um projeto de manipulação de dados com TypeScript, criando uma tabela a partir
 
 ---
 
+## Descrição
+
 Este projeto foi desenvolvido como uma prática de manipulação de dados utilizando TypeScript. A partir de um JSON contendo informações de pagamento, é criada uma tabela que exibe estatísticas com base nos dados.
 
 ## Funcionalidades
