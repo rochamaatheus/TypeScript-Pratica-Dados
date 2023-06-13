@@ -18,6 +18,10 @@ Este projeto foi desenvolvido como uma prática de manipulação de dados utiliz
 - Criação de tabela com estatísticas
 - Exibição de informações relevantes
 
+## Pré-requisitos
+
+- [Vite](https://vitejs.dev/)
+
 ## Instalação
 
 1. Clone este repositório:
