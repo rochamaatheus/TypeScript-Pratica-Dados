@@ -1,12 +1,12 @@
 # TypeScript Prática Dados
 
-![Logo](logo.png)
-
 Um projeto de manipulação de dados com TypeScript, criando uma tabela a partir de um JSON.
 
 [Acesse o site](https://rochamaatheus.github.io/TypeScript-Pratica-Dados/dist/index.html)
 
 - Nota: Este link redireciona para o projeto depois da build.
+
+![Logo](logo.png)
 
 🚀 Linguagem utilizada: TypeScript
 
