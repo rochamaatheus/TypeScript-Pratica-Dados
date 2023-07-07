@@ -6,7 +6,7 @@ Um projeto de manipulação de dados com TypeScript, criando uma tabela a partir
 
 - Nota: Este link redireciona para o projeto depois da build.
 
-![Logo](logo.png)
+ <img align="center" alt="Rocha-TypeScript" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg">
 
 🚀 Linguagem utilizada: TypeScript
 
